@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Coral Reef 1</title>
+
+<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
+<script type='text/javascript' src='js/popcorn-complete.min.js'></script>
+<script type='text/javascript' src='js/jquery.tooltipster.min.js'></script>
+<script type='text/javascript' src='js/app-builder-audio.js'></script>
+<script type='text/javascript' src='js/app-builder-footnotes.js'></script>
+<script type='text/javascript' src='js/app-builder-menus.js'></script>
+<script type='text/javascript' src='js/app-builder-video.js'></script>
+<script type='text/javascript' src='js/book-names.js'></script>
+
+<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+<link rel="stylesheet" type="text/css" href="css/sab-stylesheet.css" />
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+});
+
+// Chapters
+var chapters = [ { start: 1, end: 1 }];
+var hasIntro = false;
+var baseRef  = "01-B001-";
+
+
+</script>
+</head>
+
+<body class="browser" dir="LTR">
+
+<div id="book-menu"></div>
+<div id="chapter-menu"></div>
+
+<div id="toolbar-top">
+<div class="navigation-top">
+  <span id="book-selector">&nbsp;&nbsp;The Coral Reef&nbsp;&nbsp;</span>
+<span id="chapter-selector">&nbsp;&nbsp;1&nbsp;&nbsp;</span>
+</div>
+</div>
+
+<div id="content">
+
+<div class="b"></div>
+<div class="b"></div>
+
+<div class="s"><div id="s1">The Coral Reef</div></div>
+
+<div class="s"><div id="s2">Mission Statement: </div></div>
+<div class="b">&nbsp;</div>
+<div class="p_TextBody">The Coral Reef is a non-profit organization dedicated to the preservation, restoration, and sustainable management of coral reefs worldwide. Our mission is to protect and conserve these invaluable ecosystems, fostering their resilience and promoting their vital role in supporting marine biodiversity, coastal communities, and the overall health of our planet.</div>
+
+<div class="s"><div id="s3">Vision Statement: </div></div>
+<div class="b">&nbsp;</div>
+<div class="p_TextBody">At The Coral Reef, we envision a future where vibrant and thriving coral reefs are preserved for generations to come. We strive to be a global leader in coral reef conservation, spearheading innovative research, implementing effective strategies, and engaging communities to take collective action. By combining scientific expertise, community empowerment, and collaborative partnerships, we aim to restore damaged reefs, mitigate threats, and ensure the long-term viability and resilience of these critical ecosystems.</div>
+<div class="b">&nbsp;</div>
+<div class="p_TextBody">Our vision is to inspire and empower individuals, organizations, and governments to recognize the importance of coral reefs and to join us in safeguarding these fragile and diverse marine habitats. By fostering a deep understanding of their ecological value, promoting sustainable practices, and advocating for policy changes, we aim to create a world where coral reefs flourish, supporting a rich tapestry of marine life, sustainable fisheries, tourism, and coastal resilience.</div>
+<div class="b">&nbsp;</div>
+<div class="p_TextBody">Together, we can make a lasting difference and ensure that The Coral Reef remains a resilient and thriving ecosystem, providing future generations with the beauty, wonder, and vital services that only a healthy coral reef can offer.</div>
+<div class="b">&nbsp;</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible-button");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+</script>
+</body>
+</html>
