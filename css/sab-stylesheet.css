@@ -1743,6 +1743,11 @@ div.p_Heading2 {
     font-weight: bold;
 }
 
+span.c_InternetLink {
+    text-decoration: underline;
+    color: #000080;
+}
+
 img { max-width: 100%; }
 .txs { display: inline; }
 

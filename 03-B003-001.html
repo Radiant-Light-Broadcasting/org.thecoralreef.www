@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Superhero Organizations 1</title>
+
+<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
+<script type='text/javascript' src='js/popcorn-complete.min.js'></script>
+<script type='text/javascript' src='js/jquery.tooltipster.min.js'></script>
+<script type='text/javascript' src='js/app-builder-audio.js'></script>
+<script type='text/javascript' src='js/app-builder-footnotes.js'></script>
+<script type='text/javascript' src='js/app-builder-menus.js'></script>
+<script type='text/javascript' src='js/app-builder-video.js'></script>
+<script type='text/javascript' src='js/book-names.js'></script>
+
+<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+<link rel="stylesheet" type="text/css" href="css/sab-stylesheet.css" />
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+});
+
+// Chapters
+var chapters = [ { start: 1, end: 1 }];
+var hasIntro = false;
+var baseRef  = "03-B003-";
+
+
+</script>
+</head>
+
+<body class="browser" dir="LTR">
+
+<div id="book-menu"></div>
+<div id="chapter-menu"></div>
+
+<div id="toolbar-top">
+<div class="navigation-top">
+  <span class="button"><a href='02-B002-001.html' title='Previous Book'>&nbsp;&lt;&lt;&nbsp;</a></span>
+  <span class="button"><a href='02-B002-001.html' title='Previous Chapter'>&nbsp;&nbsp;&lt;&nbsp;&nbsp;</a></span>
+  <span id="book-selector"><a href="#" onclick="toggleBookMenu(); return false;">&nbsp;&nbsp;Superhero Organizations&nbsp;&nbsp;</a></span>
+<span id="chapter-selector"><a href="#" onclick="toggleChapterMenu(chapters, hasIntro, baseRef); return false;">&nbsp;&nbsp;1&nbsp;&nbsp;</a></span>
+  <span class="button"><a href='' title='Next Chapter'>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a></span>
+  <span class="button"><a href='' title='Next Book'>&nbsp;&gt;&gt;&nbsp;</a></span>
+</div>
+</div>
+
+<div id="content">
+
+<div class="b"></div>
+<div class="b"></div>
+
+<div class="s"><div id="s1">Superhero Organizations</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Welcome to our fun and colorful webpage all about superhero organizations that help save our beautiful underwater forests, also known as coral reefs!</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Coral reefs are like bustling cities under the sea, full of different types of fish and other amazing sea creatures. They're really important because they provide homes for many of these creatures, protect our shores from big waves, and even help us find new medicines. But right now, coral reefs are in trouble because of things like pollution and climate change.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">That's where these superhero organizations come in! They work really hard to protect and fix our coral reefs, just like doctors helping a patient get better. Some grow baby corals in special nurseries and then carefully place them back onto the reef. Others teach people about why reefs are so important and how we can all do our part to help. They also do super cool science experiments to learn more about corals and how they can survive tough times.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">On this webpage, you'll find a list of these fantastic organizations. You can click on each one to learn more about what they do and how they're helping save coral reefs. Who knows, you might even find ways you can join in and become a coral reef superhero too!</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">So, dive in and explore. Remember, just like in the sea, every little action helps. By learning and sharing what you know, you're already starting to make a big splash!</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><a href="https://www.coralrestoration.org/" class="web-link"><span class="c_InternetLink"><span class="bd">Coral Restoration Foundation</span></span></a> - They actively restore coral reefs on a large scale, educate others on the importance of oceans, and use science to further coral research and monitoring techniques. They grow corals in offshore nurseries and rehome them on selected sites. Since 2007, they have returned more than 220,000 critically endangered corals back to Florida's Coral Reef. They collaborate with universities, aquariums, NGOs, and government agencies including NOAA and the Florida Keys National Marine Sanctuary. They also engage the community through dive programs, educational activities, scientific collaborations, and outreach. People can get involved through dive programs, volunteering, educational programs, citizen science projects, and attending events​1​.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><a href="https://www.globalcoral.org/" class="web-link"><span class="c_InternetLink"><span class="bd">Coral Reef Alliance (CORAL)</span></span></a> - Their mission is to save the world’s coral reefs by working at local, regional, and global levels to keep coral reefs healthy. They use cutting-edge science and community engagement to reduce direct threats to reefs and promote scalable and effective solutions for their protection. The organization came into existence due to the reverence that people have for corals and the beautiful environments they create, and it evolved from a small band of coral enthusiasts into a global NGO with partnerships with local communities, other NGOs, governments, and more. Their research indicates that corals can adapt to climate change, and they work to turn this science into action around the world​2​.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><a href="https://www.nature.org/en-us/what-we-do/our-priorities/protect-water-and-land/coral-reef-campaign/" class="web-link"><span class="c_InternetLink"><span class="bd">The Nature Conservancy</span></span></a> - This organization has a Coral Reef Campaign, which emphasizes the importance of coral reefs as the forests of the sea, providing life, food, medicine, recreation, jobs, and joy to people around the world. They encourage people to support coral reef restoration and protection​3​.</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible-button");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+</script>
+</body>
+</html>
