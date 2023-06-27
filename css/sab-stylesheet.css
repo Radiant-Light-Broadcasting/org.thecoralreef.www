@@ -1739,6 +1739,10 @@ div.p_Heading1 {
     font-weight: bold;
 }
 
+div.p_Heading2 {
+    font-weight: bold;
+}
+
 img { max-width: 100%; }
 .txs { display: inline; }
 

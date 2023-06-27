@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What is it? 1</title>
+
+<script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
+<script type='text/javascript' src='js/popcorn-complete.min.js'></script>
+<script type='text/javascript' src='js/jquery.tooltipster.min.js'></script>
+<script type='text/javascript' src='js/app-builder-audio.js'></script>
+<script type='text/javascript' src='js/app-builder-footnotes.js'></script>
+<script type='text/javascript' src='js/app-builder-menus.js'></script>
+<script type='text/javascript' src='js/app-builder-video.js'></script>
+<script type='text/javascript' src='js/book-names.js'></script>
+
+<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+<link rel="stylesheet" type="text/css" href="css/sab-stylesheet.css" />
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+});
+
+// Chapters
+var chapters = [ { start: 1, end: 1 }];
+var hasIntro = false;
+var baseRef  = "02-B002-";
+
+
+</script>
+</head>
+
+<body class="browser" dir="LTR">
+
+<div id="book-menu"></div>
+<div id="chapter-menu"></div>
+
+<div id="toolbar-top">
+<div class="navigation-top">
+  <span class="button"><a href='01-B001-001.html' title='Previous Book'>&nbsp;&lt;&lt;&nbsp;</a></span>
+  <span class="button"><a href='01-B001-001.html' title='Previous Chapter'>&nbsp;&nbsp;&lt;&nbsp;&nbsp;</a></span>
+  <span id="book-selector"><a href="#" onclick="toggleBookMenu(); return false;">&nbsp;&nbsp;What is it?&nbsp;&nbsp;</a></span>
+<span id="chapter-selector"><a href="#" onclick="toggleChapterMenu(chapters, hasIntro, baseRef); return false;">&nbsp;&nbsp;1&nbsp;&nbsp;</a></span>
+  <span class="button"><a href='' title='Next Chapter'>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</a></span>
+  <span class="button"><a href='' title='Next Book'>&nbsp;&gt;&gt;&nbsp;</a></span>
+</div>
+</div>
+
+<div id="content">
+
+<div class="b"></div>
+<div class="b"></div>
+
+<div class="s"><div id="s1">What Is It?</div></div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s2">I. Introduction</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Coral reefs are some of the most diverse and valuable ecosystems on Earth. They provide protection for many different species of fish and other sea creatures. But what exactly is a coral reef? Let's dive in and explore.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s3">II. What is a Coral Reef?</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">A coral reef is a large underwater structure made of dead and living corals (which are tiny animals). These animals are called polyps. At night, polyps come out of their skeletons to feed. They stretch their long, stinging tentacles out to capture tiny floating animals called zooplankton. Coral polyps are usually very small, but they group together in large numbers to form coral reefs.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s4">III. Types of Coral Reefs</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">There are three main types of coral reefs: fringing reefs, barrier reefs, and atolls.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><span class="bd">Fringing Reefs</span>: These are the most common type of coral reef. They grow near the coastline and have a shallow lagoon between the land and the main body of the reef.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><span class="bd">Barrier Reefs</span>: These reefs are similar to fringing reefs but are further from the shore and are separated by a deeper, wider lagoon. The largest and most famous barrier reef is the Great Barrier Reef in Australia.</div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal"><span class="bd">Atolls</span>: Atolls are circular or oval in shape, with a central lagoon. Atolls are often found in the middle of the sea and can be formed when islands surrounded by fringing reefs sink into the sea or the sea level rises around them.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s5">IV. Life in the Coral Reef</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Coral reefs are often called "rainforests of the sea" because they are home to a large variety of living things. They provide a habitat for a multitude of fish, invertebrates, and plants. Some animals that live in coral reefs include colorful fish, sea turtles, sharks, and even some types of birds.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s6">V. Importance of Coral Reefs</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Coral reefs are very important to the health of the Earth. They protect coastlines from storms and erosion, provide jobs for local communities, and are a source of new medicines. They also offer opportunities for recreation and tourism, and provide a home to many species that are important for fishing.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s7">VI. Threats to Coral Reefs</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Unfortunately, coral reefs around the world are in danger. Activities such as pollution, overfishing, climate change, and destructive fishing practices can harm these delicate ecosystems. Coral bleaching, which happens when corals get stressed and expel their algae, can also cause great damage to the reefs.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s8">VII. Conclusion</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">Coral reefs are fascinating and important parts of our planet. They provide home for countless species and benefits for human communities. Despite the threats they face, with careful management and protection, these beautiful ecosystems can thrive for generations to come.</div>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s9">VIII. Glossary</div></div>
+<div class="b">&nbsp;</div>
+<ol start="1">
+  <li class="zoli1"><span class="bd">Polyps</span>: Tiny, soft-bodied organisms related to sea anemones and jellyfish.</li>
+  <li class="zoli1"><span class="bd">Zooplankton</span>: Tiny floating animals that are a food source for many marine animals.</li>
+  <li class="zoli1"><span class="bd">Fringing Reefs</span>: Coral reefs that grow near the coastline.</li>
+  <li class="zoli1"><span class="bd">Barrier Reefs</span>: Coral reefs that are further from the shore and separated by a deeper, wider lagoon.</li>
+  <li class="zoli1"><span class="bd">Atolls</span>: Circular or oval coral reefs with a central lagoon.</li>
+  <li class="zoli1"><span class="bd">Coral Bleaching</span>: A process that occurs when corals get stressed and expel their algae, causing them to turn white.</li>
+</ol>
+<div class="b">&nbsp;</div>
+<div class="s2"><div id="s10">IX. References</div></div>
+<div class="b">&nbsp;</div>
+<div class="p_Normal">"What is a Coral Reef." National Ocean Service, U.S. Department of Commerce, www.noaa.gov.</div>
+<div class="p_Normal">"Types of Coral Reefs." Australian Institute of Marine Science, www.aims.gov.au.</div>
+<div class="p_Normal">"Why are Coral Reefs so Important?" World Wildlife Fund, www.wwf.org.</div>
+<div class="p_Normal">"Threats to Coral Reefs." Coral Reef Alliance, www.coral.org.</div>
+<div class="p_Normal">(Note: The websites listed are suggested sources and might need to be replaced with actual URLs or other credible resources. Always remember to correctly cite your sources.)</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible-button");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+</script>
+</body>
+</html>
